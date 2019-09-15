@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 App	src/App.js	/^class App extends React.Component {$/;"	c
 CartActionTypes	src/redux/cart/cart.types.js	/^const CartActionTypes = {$/;"	c
+CartContext	src/contexts/cart/cart.context.js	/^const CartContext = createContext({$/;"	c
 CartHidden	src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	c
 CartHidden	src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	c
 CartItems	src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	c
@@ -18,6 +19,7 @@ Config	src/redux/root-reducer.js	/^const persistConfig = {$/;"	c
 CurrentUser	src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	c
 CurrentUserContext	src/contexts/current-user/current-user.context.js	/^const CurrentUserContext = createContext(undefined)$/;"	c
 DirectorySections	src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	c
+Hidden	src/contexts/cart/cart.context.js	/^  toggleHidden: () => {}$/;"	c
 INITIAL_STATE	src/redux/cart/cart.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	src/redux/directory/directory.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	src/redux/shop/shop.reducer.js	/^const INITIAL_STATE = {$/;"	c
