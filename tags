@@ -16,6 +16,7 @@ CollectionsContext	src/contexts/collections/collections.context.js	/^const Colle
 CollectionsForPreview	src/redux/shop/shop.selectors.js	/^export const selectCollectionsForPreview = createSelector($/;"	c
 Config	src/redux/root-reducer.js	/^const persistConfig = {$/;"	c
 CurrentUser	src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	c
+CurrentUserContext	src/contexts/current-user/current-user.context.js	/^const CurrentUserContext = createContext(undefined)$/;"	c
 DirectorySections	src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	c
 INITIAL_STATE	src/redux/cart/cart.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	src/redux/directory/directory.reducer.js	/^const INITIAL_STATE = {$/;"	c
@@ -33,7 +34,7 @@ Reducer	src/redux/root-reducer.js	/^const rootReducer = combineReducers({$/;"	c
 Reducer	src/redux/shop/shop.reducer.js	/^const shopReducer = (state = INITIAL_STATE, action) => {$/;"	c
 Reducer	src/redux/user/user.reducer.js	/^const userReducer = (state = INITIAL_STATE, action) => {$/;"	c
 SHOP_DATA	src/redux/shop/shop.data.js	/^const SHOP_DATA = {$/;"	c
-StateToProps	src/App.js	/^const mapStateToProps = createStructuredSelector({$/;"	c
+User	src/App.js	/^          this.setState({ currentUser: {$/;"	c
 UserActionTypes	src/redux/user/user.types.js	/^export const UserActionTypes = {$/;"	c
 UserActionTypes	src/redux/user/user.types.js	/^export const UserActionTypes = {$/;"	v
 UserProfileDocument	src/firebase/firebase.utils.js	/^export const createUserProfileDocument = async (userAuth, additionalData) => {$/;"	c
