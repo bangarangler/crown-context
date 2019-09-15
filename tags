@@ -18,6 +18,7 @@ CollectionsForPreview	src/redux/shop/shop.selectors.js	/^export const selectColl
 Config	src/redux/root-reducer.js	/^const persistConfig = {$/;"	c
 CurrentUser	src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	c
 CurrentUserContext	src/contexts/current-user/current-user.context.js	/^const CurrentUserContext = createContext(undefined)$/;"	c
+DirectoryContext	src/contexts/directory/directory.context.js	/^const DirectoryContext = createContext(DIRECTORY_DATA)$/;"	c
 DirectorySections	src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	c
 Hidden	src/contexts/cart/cart.context.js	/^  toggleHidden: () => {}$/;"	c
 INITIAL_STATE	src/redux/cart/cart.reducer.js	/^const INITIAL_STATE = {$/;"	c
@@ -53,6 +54,7 @@ createUserProfileDocument	src/firebase/firebase.utils.js	/^export const createUs
 filterItemFromCart	src/provider/cart/cart.utils.js	/^export const filterItemFromCart = (cartItems, item) => cartItems.filter($/;"	v
 firestore	src/firebase/firebase.utils.js	/^export const firestore = firebase.firestore();$/;"	v
 getCartItemsCount	src/provider/cart/cart.utils.js	/^export const getCartItemsCount = cartItems => cartItems.reduce($/;"	v
+getCartTotal	src/provider/cart/cart.utils.js	/^export const getCartTotal = cartItems =>$/;"	v
 persistor	src/redux/store.js	/^export const persistor = persistStore(store);$/;"	v
 register	src/serviceWorker.js	/^export function register(config) {$/;"	f
 registerValidSW	src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
